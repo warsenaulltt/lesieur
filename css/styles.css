@@ -56,14 +56,14 @@ h3{
 COMPONENTS
 -------------------------------------------*/
 
-/*wrapper*/
+/* WRAPPER */
 
 .wrapper{
     max-width: 1080px;
     margin: 0 auto;
 }
 
-/*header*/
+/* HEADER */
 
 .header{
     background-color: #f26c25;
@@ -76,4 +76,26 @@ COMPONENTS
 
 .header .wrapper{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.menu a:hover{
+    text-decoration: underline;
 }
